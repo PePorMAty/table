@@ -1,0 +1,116 @@
+.table {
+  border-collapse: collapse;
+  line-height: 1.1;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background: radial-gradient(farthest-corner at 50% 50%, white, #dcecf8);
+  color: #0c213b;
+  width: 100%;
+}
+
+.table tr {
+  padding: 0 10px;
+}
+
+.table tr th {
+  padding: 15px 10px;
+  border: 1px solid #a9e2cc;
+}
+
+.table tr td {
+  padding: 5px 7px;
+  border: 1px solid #a9e2cc;
+}
+
+.tableIcon {
+  cursor: pointer;
+  float: right;
+  border: none;
+  background-color: inherit;
+  font-size: 18px;
+}
+
+.empty {
+  padding: 10px 10px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+}
+
+.deleteButton {
+  margin-right: 10px;
+  border: none;
+  padding: 5px 10px;
+  background-color: #de2e2e;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.addButton {
+  padding: 5px 10px;
+  border: none;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.activeAddMode {
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+
+.formTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formTitle {
+  margin-bottom: 15px;
+}
+
+.cancelButton {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formLabel {
+  margin-bottom: 10px;
+}
+
+.formInput {
+  margin-bottom: 10px;
+  max-width: min-content;
+  padding: 5px 10px;
+}
+.formButton {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin-top: 30px;
+  width: min-content;
+}
+.validForm {
+  color: red;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.checked {
+  background-color: #62eaf4;
+}
+.notChecked {
+  background-color: inherit;
+}
