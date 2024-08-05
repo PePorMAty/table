@@ -109,7 +109,7 @@
   font-size: 18px;
 }
 .checked {
-  background-color: #62eaf4;
+  background-color: rgb(230, 235, 255);
 }
 .notChecked {
   background-color: inherit;

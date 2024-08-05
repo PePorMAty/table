@@ -1,10 +1,13 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Table from "./features/table/Table";
+import TableP from "./features/table/TableP";
 
 function App() {
   return (
     <div className="App">
-      <Table />
+      <Routes>
+        <Route path="/" element={<TableP />} />
+      </Routes>
     </div>
   );
 }
